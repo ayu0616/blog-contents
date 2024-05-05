@@ -1,5 +1,10 @@
 {
   "accentColor": "",
+  "interfaceFontFamily": "BIZ UDPGothic",
+  "textFontFamily": "BIZ UDPGothic",
+  "monospaceFontFamily": "Monaco,BIZ UDPGothic",
+  "translucency": false,
+  "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "main"
   ]
