@@ -4,8 +4,8 @@ on:
         branches:
             - main
 env:
-    PYTHON_VERSION: 3.10
-    POETRY_VERSION: 1.7.1
+    PYTHON_VERSION: "3.10"
+    POETRY_VERSION: "1.7.1"
 jobs:
     lint:
         runs-on: ubuntu-latest
@@ -65,3 +65,13 @@ jobs:
             - name: Run script by Poetry
               run: |
                   poetry run python update_page_info.py
+            - name: push diff
+              run: |
+                  git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+                  git config --global user.name "${GITHUB_ACTOR}"
+                  git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+                  if (git diff --shortstat | grep '[0-9]'); then \
+                      git add .; \
+                      git commit -m "update page info"; \
+                      git push origin HEAD:${GITHUB_REF}; \
+                  fi
