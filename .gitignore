@@ -1,0 +1,9 @@
+.env
+大塚商会/大塚商会_PR動画
+
+conflict-files-obsidian-git.md
+
+.obsidian/workspace*.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+.git.nosync

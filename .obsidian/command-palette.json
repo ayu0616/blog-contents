@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "obsidian-git:commit-and-push",
+    "obsidian-git:pull",
+    "obsidian-git:push2",
+    "obsidian-git:commit",
+    "obsidian-linter:lint-file",
+    "auto-card-link:auto-card-link-paste-and-enhance"
+  ]
+}

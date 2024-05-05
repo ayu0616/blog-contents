@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap"); /* BIZ UDPGothic をダウンロード */
+@import url("https://fonts.cdnfonts.com/css/monaco"); /* Monaco をダウンロード */
+
+body {
+    font-family: "BIZ UDPGothic", sans-serif; /* フォントを設定 */
+    background-color: #f8fafc; /* 背景色を設定 */
+}
+
+.cm-header {
+    color: #581c87; /* 見出しの色を設定 */
+}
+
+pre {
+    font-family: Monaco, BIZ UDPGothic, sans-serif; /* フォントを設定 */
+}
+
+span.cm-link,
+span.cm-url,
+a {
+    color: #0369a1 !important; /* リンクの色を設定 */
+}
