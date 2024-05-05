@@ -3,6 +3,9 @@ on:
     push:
         branches:
             - main
+env:
+    PYTHON_VERSION: 3.10
+    POETRY_VERSION: 1.7.1
 jobs:
     lint:
         runs-on: ubuntu-latest
@@ -24,3 +27,41 @@ jobs:
                       git commit -m "formatted by markdownlint-cli2"; \
                       git push origin HEAD:${GITHUB_REF}; \
                   fi
+    update-page-info:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Cache poetry cache
+              id: poetry-cache
+              uses: actions/cache@v3
+              with:
+                  path: /home/runner/.local
+                  key: ${{ runner.os }}-python${{ env.PYTHON_VERSION }}-poetry${{ env.POETRY_VERSION }}
+            - name: Set a path
+              run: |
+                  echo "$HOME/.local/bin" >> $GITHUB_PATH
+              if: steps.poetry-cache.outputs.cache-hit == 'true'
+            - name: Cache packages
+              id: packages-cache
+              uses: actions/cache@v3
+              with:
+                  path: /home/runner/.cache/pypoetry
+                  key: ${{ runner.os }}-${{ github.job }}-packages-${{ hashFiles('**/poetry.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-${{ github.job }}-packages-
+            - name: Setup Python ${{ env.PYTHON_VERSION }}
+              uses: actions/setup-python@v4
+              with:
+                  python-version: ${{ env.PYTHON_VERSION }}
+            - name: Install poetry
+              run: |
+                  curl -sSL https://install.python-poetry.org | python3 - --version ${{ env.POETRY_VERSION }}
+                  echo "$HOME/.local/bin" >> $GITHUB_PATH
+              if: steps.poetry-cache.outputs.cache-hit != 'true'
+            - name: Resolve Dependencies
+              run: |
+                  poetry install
+              if: steps.packages-cache.outputs.cache-hit != 'true'
+            - name: Run script by Poetry
+              run: |
+                  poetry run python update_page_info.py
