@@ -46,7 +46,12 @@ def get_json(slug: str):
             break
         if yaml_flag:
             yaml_lines.append(line)
+    for line in lines:
+        if line.startswith("# "):
+            title = line[2:]
+            break
     dic = yaml.safe_load("\n".join(yaml_lines))
+    dic["title"] = title
     return dic
 
 
