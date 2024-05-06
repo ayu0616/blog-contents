@@ -8,7 +8,8 @@
         ],
         "created": "2024-05-05T16:07:02+09:00",
         "modified": "2024-05-05T17:12:01+09:00",
-        "title": "\u30c6\u30b9\u30c8\u30da\u30fc\u30b8"
+        "title": "\u30c6\u30b9\u30c8\u30da\u30fc\u30b8",
+        "headings": []
     },
     "my-site": {
         "published": true,
@@ -16,6 +17,24 @@
         "tags": null,
         "created": "2024-05-05T16:07:02+09:00",
         "modified": "2024-05-06T01:16:17+09:00",
-        "title": "\u81ea\u5206\u306e\u30b5\u30a4\u30c8\u3092\u4f5c\u3063\u3066\u307f\u305f"
+        "title": "CMS\uff08\u30b3\u30f3\u30c6\u30f3\u30c4\u7ba1\u7406\u30b7\u30b9\u30c6\u30e0\uff09",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u30ea\u30dd\u30b8\u30c8\u30ea"
+            },
+            {
+                "level": 2,
+                "title": "\u4f7f\u7528\u3057\u305f\u6280\u8853"
+            },
+            {
+                "level": 3,
+                "title": "\u30d5\u30ed\u30f3\u30c8\u30a8\u30f3\u30c9"
+            },
+            {
+                "level": 3,
+                "title": "CMS\uff08\u30b3\u30f3\u30c6\u30f3\u30c4\u7ba1\u7406\u30b7\u30b9\u30c6\u30e0\uff09"
+            }
+        ]
     }
 }

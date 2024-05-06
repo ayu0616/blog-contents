@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 import json
 import os
+import re
 from datetime import date, datetime
 
 import yaml
@@ -37,6 +38,7 @@ def get_json(slug: str):
         lines = f.read().splitlines()
     yaml_flag = False
     yaml_lines = []
+    headings = []
     for line in lines:
         if line == "---" and not yaml_flag:
             yaml_flag = True
@@ -49,9 +51,19 @@ def get_json(slug: str):
     for line in lines:
         if line.startswith("# "):
             title = line[2:]
-            break
+        heading_match = re.match(r"^(##+) (.*)", line)
+        if heading_match:
+            level = len(heading_match.group(1))
+            title = heading_match.group(2)
+            headings.append(
+                {
+                    "level": level,
+                    "title": title,
+                }
+            )
     dic = yaml.safe_load("\n".join(yaml_lines))
     dic["title"] = title
+    dic["headings"] = headings
     return dic
 
 
