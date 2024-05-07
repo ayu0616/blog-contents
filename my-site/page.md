@@ -2,8 +2,9 @@
 published: true
 publishedAt: 2024-05-05
 tags:
+  - Web
 created: 2024-05-05 16:07:02+09:00
-modified: 2024-05-06 01:16:17+09:00
+modified: 2024-05-07 23:44:56+09:00
 ---
 
 # 自分のサイトを作ってみた
@@ -29,6 +30,8 @@ minLevel: 2
     - Markdownで書いたブログ記事をjsx要素に変換する
 
 ### CMS（コンテンツ管理システム）
+
+ブログ記事を書くためのシステムやツール
 
 - Obsidian
     - CMSではないが、ここでブログ用のMarkdownを編集する
