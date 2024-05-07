@@ -48,11 +48,14 @@ def get_json(slug: str):
             break
         if yaml_flag:
             yaml_lines.append(line)
+    dic = yaml.safe_load("\n".join(yaml_lines))  # yamlから辞書を作成
     for line in lines:
         if line.startswith("# "):
-            title = line[2:]
+            # タイトルを取得
+            dic["title"] = line[2:]
         heading_match = re.match(r"^(##+) (.*)", line)
         if heading_match:
+            # 見出しを取得
             level = len(heading_match.group(1))
             title = heading_match.group(2)
             headings.append(
@@ -61,8 +64,6 @@ def get_json(slug: str):
                     "title": title,
                 }
             )
-    dic = yaml.safe_load("\n".join(yaml_lines))
-    dic["title"] = title
     dic["headings"] = headings
     return dic
 
