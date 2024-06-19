@@ -1,16 +1,4 @@
 {
-    "test": {
-        "published": false,
-        "publishedAt": "2024-05-05",
-        "tags": [
-            "\u30c6\u30b9\u30c8",
-            "test"
-        ],
-        "created": "2024-05-05T16:07:02+09:00",
-        "modified": "2024-06-17T00:05:38+09:00",
-        "title": "\u30c6\u30b9\u30c8\u30da\u30fc\u30b8",
-        "headings": []
-    },
     "my-site": {
         "published": true,
         "publishedAt": "2024-05-05",
@@ -51,5 +39,46 @@
                 "title": "\u3053\u308c\u304b\u3089"
             }
         ]
+    },
+    "kyodai-marketing-web": {
+        "published": false,
+        "publishedAt": null,
+        "tags": [
+            "Web",
+            "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0"
+        ],
+        "created": "2024-05-05T16:07:02+09:00",
+        "modified": "2024-06-17T01:17:54+09:00",
+        "title": "\u4eac\u5927\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0\u7814\u7a76\u6240\u306e\u30db\u30fc\u30e0\u30da\u30fc\u30b8\u3092\u5236\u4f5c\u3057\u305f",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u304d\u3063\u304b\u3051"
+            },
+            {
+                "level": 2,
+                "title": "\u8981\u4ef6"
+            },
+            {
+                "level": 2,
+                "title": "\u30e1\u30f3\u30d0\u30fc"
+            },
+            {
+                "level": 2,
+                "title": "\u958b\u767a\u306e\u6d41\u308c"
+            }
+        ]
+    },
+    "test": {
+        "published": false,
+        "publishedAt": "2024-05-05",
+        "tags": [
+            "\u30c6\u30b9\u30c8",
+            "test"
+        ],
+        "created": "2024-05-05T16:07:02+09:00",
+        "modified": "2024-06-17T00:05:38+09:00",
+        "title": "\u30c6\u30b9\u30c8\u30da\u30fc\u30b8",
+        "headings": []
     }
 }
