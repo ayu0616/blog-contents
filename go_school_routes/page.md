@@ -3,6 +3,7 @@ published: false
 publishedAt: 
 tags:
   - 競技プログラミング
+  - 数学
 created: 2024-06-24 16:20:57+09:00
 modified: 2024-06-24 16:58:59+09:00
 ---
