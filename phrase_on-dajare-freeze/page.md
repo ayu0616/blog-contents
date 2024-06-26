@@ -3,9 +3,15 @@ published: false
 publishedAt: 
 tags:
   - ネタ
+created: 2024-06-26 17:15:54+09:00
+modified: 2024-06-26 21:57:32+09:00
 ---
+
 # ダジャレで滑ったときに使えるフレーズ集
 
+```table-of-contents
+minLevel: 2
+```
 
 ## 本記事の目的
 
