@@ -5,7 +5,7 @@ tags:
   - プログラミング
   - ネタ
 created: 2024-06-27 03:20:04+09:00
-modified: 2024-06-27 17:17:09+09:00
+modified: 2024-06-27 17:21:52+09:00
 ---
 
 # ボジョレー・ヌーヴォーのキャッチコピー生成器を作ってみた【自然言語処理】
@@ -18,7 +18,7 @@ modified: 2024-06-27 17:17:09+09:00
 
 先に遊んでみたい方はこちらのリンクからどうぞ！
 
-[ボジョレーヌーボーエセソムリエ生成器 - はっさくの旅ブログ](https://hassaku-travel-blog.com/trash-can/beaujolais)
+[ボジョレーヌーボー・エセソムリエ生成器](https://trash-can-frontend-zhqzb2nbkq-an.a.run.app/sommelier)
 
 ## ボジョレー・ヌーヴォーとは
 
@@ -383,9 +383,9 @@ class Marcov:
 
 ボジョレーヌーヴォーのキャッチコピー生成器が完成しました！
 
-この方法を使った生成器を[こちらのページ](https://hassaku-travel-blog.com/trash-can/beaujolais)で配信しているので、ぜひご覧ください！
+この方法を使った生成器を[こちらのページ](https://trash-can-frontend-zhqzb2nbkq-an.a.run.app/sommelier)で配信しているので、ぜひご覧ください！
 
-[ボジョレーヌーボーエセソムリエ生成器 - はっさくの旅ブログ](https://hassaku-travel-blog.com/trash-can/beaujolais)
+[ボジョレーヌーボー・エセソムリエ生成器](https://trash-can-frontend-zhqzb2nbkq-an.a.run.app/sommelier)
 
 ページ内の「ぐちゃぐちゃ」モードは、今回の方法の発展版です。好評だったら別の記事で解説するかもしれません。
 
