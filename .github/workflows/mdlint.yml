@@ -73,5 +73,6 @@ jobs:
                   if (git diff --shortstat | grep '[0-9]'); then \
                       git add .; \
                       git commit -m "update page info"; \
+                      git pull; \
                       git push origin HEAD:${GITHUB_REF}; \
                   fi
