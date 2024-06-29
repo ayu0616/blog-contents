@@ -16,8 +16,10 @@ minLevel: 2
 ```
 
 ```callout
+----
 icon: ❗
 title: 前提
+----
 - Next.js, Tailwind CSSで開発している
 ```
 
@@ -44,8 +46,10 @@ title: 前提
 ## 解決方法
 
 ```callout
+----
 icon: 💡
 title: `<div>`タグの`className`に`relative`を追加するだけ
+----
 ```
 
 理由はよくわかりませんが、上記の対応を行うと解決できます。
