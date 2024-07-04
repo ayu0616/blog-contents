@@ -1,4 +1,26 @@
 {
+    "marp-tailwindcss": {
+        "published": false,
+        "publishedAt": null,
+        "tags": [
+            "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0",
+            "Web",
+            "\u5099\u5fd8\u9332"
+        ],
+        "created": "2024-06-26T17:15:54+09:00",
+        "modified": "2024-07-03T18:48:18+09:00",
+        "title": "Marp\u3067TailwindCSS\u3092\u4f7f\u3046\u65b9\u6cd5",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u306f\u3058\u3081\u306b"
+            },
+            {
+                "level": 2,
+                "title": "\u3084\u308a\u305f\u3044\u3053\u3068"
+            }
+        ]
+    },
     "alt-tab_little-arc": {
         "published": true,
         "publishedAt": "2024-06-27",
