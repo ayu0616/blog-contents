@@ -84,16 +84,16 @@ pythonで普通に`int()`を実行すると`0`と出力されるので、`val ==
 ```callout
 ----
 icon: 💡
-title: "`val`がある型`Class`のインスタンスかどうか判定したい"
+title: `val`がある型`Class`のインスタンスかどうか判定したい
+----
 - `match val`とする
 - `case Class():`とする
-----
 ```
 
 ```callout
 ----
 icon: 💡
-title: "`val`がある値`a`または`b`であることを判定したい"
-- `case a | b:`とする
+title: `val`がある値`a`または`b`であることを判定したい
 ----
+- `case a | b:`とする
 ```
