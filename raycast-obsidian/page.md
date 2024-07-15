@@ -20,14 +20,14 @@ minLevel: 2
 title: Quicklinksを使う
 icon: 💡
 ----
-Quicklinksに`obsidian://open?vault=${vaultName}$`を設定してやる
+Quicklinksに`obsidian://open?vault={vaultName}`を設定してやる
 ```
 
 ## 背景
 
 私は、Obsidianで日記を書いているのですが、わざわざアプリを開くのが面倒だと感じていました。vaultを4つぐらい使い分けていて、アプリを開いた際には最後に開いていたvaultが開く仕組みになっているようで、別のvaultから日記に変更するのも手間でした。
 
-RaycastというMacの便利ランチャーアプリにObsidian用のプラグイン（[Raycast Store: Obsidian - overview](https://www.raycast.com/KevinBatdorf/obsidian)）があることは知っていて絶賛利用しているし便利なのですが、それでもやはり`"Open Vault" -> "${vaultName}"`という2ステップを踏む必要がありました。
+RaycastというMacの便利ランチャーアプリにObsidian用のプラグイン（[Raycast Store: Obsidian - overview](https://www.raycast.com/KevinBatdorf/obsidian)）があることは知っていて絶賛利用しているし便利なのですが、それでもやはり`"Open Vault" -> "{vaultName}"`という2ステップを踏む必要がありました。
 
 1ステップ目
 ![](スクリーンショット%202024-07-15%201.45.49.png)
