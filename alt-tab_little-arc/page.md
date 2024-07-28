@@ -7,7 +7,7 @@ created: 2024-06-26 17:15:54+09:00
 modified: 2024-06-27 23:30:38+09:00
 ---
 
-# AltTabでLittle Arcが表示されない不具合を解消した
+# 【Mac】AltTabでLittle Arcが表示されない不具合を解消した
 
 ## 結論
 
