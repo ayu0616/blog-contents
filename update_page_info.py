@@ -1,10 +1,12 @@
 #! /usr/bin/env python
+import glob
 import json
 import os
 import re
 from datetime import date, datetime
 
 import yaml
+from pydantic import BaseModel
 
 os.chdir(os.path.dirname(__file__))
 
@@ -14,14 +16,30 @@ IGNORE_SLUGS = {
 }
 
 
+class DirInfo(BaseModel):
+    dirname: str
+    slug: str
+
+    class Config:
+        extra = "forbid"
+
+
 def is_target(slug: str):
-    if not os.path.isdir(slug):
-        return False
-    if slug.startswith("."):
-        return False
     if slug in IGNORE_SLUGS:
         return False
     return True
+
+
+def get_dir_info():
+    res = glob.glob("**/page.md", recursive=True)
+    dir_info: list[DirInfo] = []
+    for path in res:
+        dirname = os.path.dirname(path)
+        slug = os.path.basename(dirname)
+        if not is_target(slug):
+            continue
+        dir_info.append(DirInfo(dirname=dirname, slug=slug))
+    return dir_info
 
 
 # date, datetimeの変換関数
@@ -33,8 +51,9 @@ def json_serial(obj):
     raise TypeError("Type %s not serializable" % type(obj))
 
 
-def get_json(slug: str):
-    with open(os.path.join(slug, "page.md"), "r") as f:
+def get_json(dir_info: DirInfo):
+    dirname = dir_info.dirname
+    with open(os.path.join(dirname, "page.md"), "r") as f:
         lines = f.read().splitlines()
     yaml_flag = False
     yaml_lines = []
@@ -69,10 +88,11 @@ def get_json(slug: str):
 
 
 def main():
-    slugs = [slug for slug in os.listdir() if is_target(slug)]
+    dir_info = get_dir_info()
     page_info = {}
-    for slug in slugs:
-        dic = get_json(slug)
+    for info in dir_info:
+        slug = info.slug
+        dic = get_json(info)
         page_info[slug] = dic
     json.dump(page_info, open("page-info.json", "w"), default=json_serial, indent=4)
 
