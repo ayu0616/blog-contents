@@ -53,6 +53,7 @@ def json_serial(obj):
 
 def get_json(dir_info: DirInfo):
     dirname = dir_info.dirname
+    slug = dir_info.slug
     with open(os.path.join(dirname, "page.md"), "r") as f:
         lines = f.read().splitlines()
     yaml_flag = False
@@ -84,6 +85,8 @@ def get_json(dir_info: DirInfo):
                 }
             )
     dic["headings"] = headings
+    dic["slug"] = slug
+    dic["dirname"] = dirname
     return dic
 
 
