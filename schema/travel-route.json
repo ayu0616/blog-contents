@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Travel Route",
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": ["travel-route"]
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "$schema": "http://json-schema.org/draft-06/schema#",
+                "title": "Travel Route Item",
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "enum": ["moving", "sightseeing", "eating", "staying", "other"]
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "time": {
+                        "type": "object",
+                        "properties": {
+                            "from": {
+                                "type": "string",
+                                "format": "date-time"
+                            },
+                            "to": {
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    }
+                },
+                "required": ["type", "name", "time"]
+            }
+        }
+    },
+    "required": ["type", "items"]
+}
