@@ -4,7 +4,7 @@
     "items": [
         {
             "name": "自宅",
-            "type": "other",
+            "type": "staying",
             "time": {
                 "to": "2024-09-04T08:00:00+09:00"
             }

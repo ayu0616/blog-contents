@@ -1,6 +1,6 @@
 ---
-published: false
-publishedAt: 
+published: true
+publishedAt: 2024-09-10
 tags:
   - 無青春22男がゆく青春18きっぷ山陰旅
   - 旅行
