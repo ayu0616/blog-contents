@@ -631,8 +631,8 @@
         "dirname": "phrase_on-dajare-freeze"
     },
     "sannin-18kippu": {
-        "published": false,
-        "publishedAt": null,
+        "published": true,
+        "publishedAt": "2024-09-10",
         "tags": [
             "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5",
             "\u65c5\u884c"
