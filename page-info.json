@@ -1,21 +1,70 @@
 {
     "sannin-18kippu_day2": {
-        "published": false,
-        "publishedAt": null,
+        "published": true,
+        "publishedAt": "2024-09-10",
         "tags": [
             "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5",
             "\u65c5\u884c"
         ],
         "created": "2024-06-26T17:15:54+09:00",
-        "modified": "2024-07-04T14:19:53+09:00",
+        "modified": "2024-09-09T10:25:50+09:00",
         "title": "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5\u30fb2\u65e5\u76ee",
-        "headings": [],
+        "headings": [
+            {
+                "level": 2,
+                "title": "2\u65e5\u76ee\u306e\u65c5\u7a0b"
+            },
+            {
+                "level": 2,
+                "title": "\u5009\u5409 \u8d64\u74e6\u30fb\u767d\u58c1\u571f\u8535\u7fa4"
+            },
+            {
+                "level": 2,
+                "title": "\u5009\u5409\u2192\u677e\u6c5f"
+            },
+            {
+                "level": 2,
+                "title": "\u677e\u6c5f"
+            },
+            {
+                "level": 3,
+                "title": "\u677e\u6c5f\u57ce"
+            },
+            {
+                "level": 3,
+                "title": "\u8208\u96f2\u95a3"
+            },
+            {
+                "level": 3,
+                "title": "\u5c0f\u6cc9\u516b\u96f2\u8a18\u5ff5\u9928"
+            },
+            {
+                "level": 2,
+                "title": "\u4e00\u7551\u96fb\u8eca"
+            },
+            {
+                "level": 2,
+                "title": "\u51fa\u96f2"
+            },
+            {
+                "level": 3,
+                "title": "\u51fa\u96f2\u5927\u793e"
+            },
+            {
+                "level": 3,
+                "title": "\u7a32\u4f50\u306e\u6d5c"
+            },
+            {
+                "level": 2,
+                "title": "\u51fa\u96f2\u2192\u7c73\u5b50"
+            }
+        ],
         "slug": "sannin-18kippu_day2",
         "dirname": "sannin-18kippu_day2"
     },
     "sannin-18kippu_day1": {
-        "published": false,
-        "publishedAt": null,
+        "published": true,
+        "publishedAt": "2024-09-10",
         "tags": [
             "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5",
             "\u65c5\u884c"
@@ -672,16 +721,49 @@
         "dirname": "go_school_routes"
     },
     "sannin-18kippu_day3": {
-        "published": false,
-        "publishedAt": null,
+        "published": true,
+        "publishedAt": "2024-09-10",
         "tags": [
             "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5",
             "\u65c5\u884c"
         ],
         "created": "2024-06-26T17:15:54+09:00",
-        "modified": "2024-07-04T14:19:53+09:00",
+        "modified": "2024-09-10T11:00:04+09:00",
         "title": "\u7121\u9752\u662522\u7537\u304c\u3086\u304f\u9752\u662518\u304d\u3063\u3077\u5c71\u9670\u65c5\u30fb3\u65e5\u76ee",
-        "headings": [],
+        "headings": [
+            {
+                "level": 2,
+                "title": "3\u65e5\u76ee\u306e\u65c5\u7a0b"
+            },
+            {
+                "level": 2,
+                "title": "\u7c73\u5b50\u2192\u9ce5\u53d6"
+            },
+            {
+                "level": 2,
+                "title": "\u3059\u306a\u3070\u73c8\u7432"
+            },
+            {
+                "level": 2,
+                "title": "\u9ce5\u53d6\u2192\u9918\u90e8"
+            },
+            {
+                "level": 2,
+                "title": "\u4f59\u90e8\u9244\u6a4b"
+            },
+            {
+                "level": 2,
+                "title": "\u6d5c\u5742"
+            },
+            {
+                "level": 2,
+                "title": "\u6d5c\u5742\u2192\u59eb\u8def"
+            },
+            {
+                "level": 2,
+                "title": "\u59eb\u8def"
+            }
+        ],
         "slug": "sannin-18kippu_day3",
         "dirname": "sannin-18kippu_day3"
     },
