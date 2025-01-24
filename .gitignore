@@ -2,3 +2,7 @@ assets/
 .obsidian/
 
 .venv
+
+.env
+
+__pycache__/
