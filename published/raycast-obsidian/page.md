@@ -4,7 +4,7 @@ publishedAt: 2024-07-15
 tags:
   - 備忘録
 created: 2024-06-26 17:15:54+09:00
-modified: 2024-07-15 01:50:28+09:00
+modified: 2025-01-24 14:00:24+09:00
 ---
 
 # ObsidianのVaultをRaycastで一発で開く方法

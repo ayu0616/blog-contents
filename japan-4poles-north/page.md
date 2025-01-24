@@ -1,11 +1,11 @@
 ---
-published: false
-publishedAt:
+published: true
+publishedAt: 2025-01-24
 tags:
   - 旅行
   - 日本本土四極
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-01-18 20:02:50+09:00
+modified: 2025-01-24 13:59:11+09:00
 ---
 
 # 本土最北端 宗谷岬に行ってみた
