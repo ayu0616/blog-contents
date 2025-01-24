@@ -8,7 +8,6 @@ from datetime import date, datetime
 import yaml
 from pydantic import BaseModel
 
-os.chdir(os.path.dirname(__file__))
 
 IGNORE_SLUGS = {
     "template",
@@ -16,14 +15,14 @@ IGNORE_SLUGS = {
 }
 
 
-def is_target(slug: str):
+def is_target(slug: str) -> bool:
     if slug in IGNORE_SLUGS:
         return False
     return True
 
 
 # date, datetimeの変換関数
-def json_serial(obj):
+def json_serial(obj: object) -> str:
     # 日付型の場合には、文字列に変換します
     if isinstance(obj, (datetime, date)):
         return obj.isoformat()
@@ -31,7 +30,7 @@ def json_serial(obj):
     raise TypeError("Type %s not serializable" % type(obj))
 
 
-def get_json(slug: str):
+def get_json(slug: str) -> dict[str, object]:
     with open(f"{slug}.md", "r") as f:
         lines = f.read().splitlines()
     yaml_flag = False
@@ -46,7 +45,7 @@ def get_json(slug: str):
             break
         if yaml_flag:
             yaml_lines.append(line)
-    dic = yaml.safe_load("\n".join(yaml_lines))  # yamlから辞書を作成
+    dic: dict[str, object] = yaml.safe_load("\n".join(yaml_lines))  # yamlから辞書を作成
     for line in lines:
         if line.startswith("# "):
             # タイトルを取得
@@ -67,7 +66,9 @@ def get_json(slug: str):
     return dic
 
 
-def main():
+def main() -> None:
+    os.chdir(os.path.dirname(__file__))
+
     page_info = {}
     for md_path in glob.glob("*.md"):
         slug = os.path.splitext(md_path)[0]
