@@ -16,30 +16,10 @@ IGNORE_SLUGS = {
 }
 
 
-class DirInfo(BaseModel):
-    dirname: str
-    slug: str
-
-    class Config:
-        extra = "forbid"
-
-
 def is_target(slug: str):
     if slug in IGNORE_SLUGS:
         return False
     return True
-
-
-def get_dir_info():
-    res = glob.glob("**/page.md", recursive=True)
-    dir_info: list[DirInfo] = []
-    for path in res:
-        dirname = os.path.dirname(path)
-        slug = os.path.basename(dirname)
-        if not is_target(slug):
-            continue
-        dir_info.append(DirInfo(dirname=dirname, slug=slug))
-    return dir_info
 
 
 # date, datetimeの変換関数
@@ -51,10 +31,8 @@ def json_serial(obj):
     raise TypeError("Type %s not serializable" % type(obj))
 
 
-def get_json(dir_info: DirInfo):
-    dirname = dir_info.dirname
-    slug = dir_info.slug
-    with open(os.path.join(dirname, "page.md"), "r") as f:
+def get_json(slug: str):
+    with open(f"{slug}.md", "r") as f:
         lines = f.read().splitlines()
     yaml_flag = False
     yaml_lines = []
@@ -86,16 +64,14 @@ def get_json(dir_info: DirInfo):
             )
     dic["headings"] = headings
     dic["slug"] = slug
-    dic["dirname"] = dirname
     return dic
 
 
 def main():
-    dir_info = get_dir_info()
     page_info = {}
-    for info in dir_info:
-        slug = info.slug
-        dic = get_json(info)
+    for md_path in glob.glob("*.md"):
+        slug = os.path.splitext(md_path)[0]
+        dic = get_json(slug)
         page_info[slug] = dic
     json.dump(page_info, open("page-info.json", "w"), default=json_serial, indent=4)
 
