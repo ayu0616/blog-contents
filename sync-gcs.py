@@ -10,10 +10,16 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from lib.storage import GCS
 import asyncio
+import update_page_info
 
 
 async def main() -> None:
     os.chdir(os.path.dirname(__file__))
+
+    # ページ情報を更新
+    print("ページ情報を更新します...")
+    update_page_info.main()
+    print("ページ情報の更新が完了しました")
 
     # 対象となるファイル
     target_patterns = [
