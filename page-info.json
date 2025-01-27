@@ -124,6 +124,56 @@
         ],
         "slug": "raycast-obsidian"
     },
+    "japan-4poles-south": {
+        "published": true,
+        "publishedAt": "2025-01-25",
+        "tags": [
+            "\u65c5\u884c",
+            "\u65e5\u672c\u672c\u571f\u56db\u6975"
+        ],
+        "created": "2024-06-26T17:15:54+09:00",
+        "modified": "2025-01-25T17:21:11+09:00",
+        "title": "\u672c\u571f\u6700\u5357\u7aef \u4f50\u591a\u5cac\u306b\u884c\u3063\u3066\u307f\u305f",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u4f50\u591a\u5cac\u3068\u306f"
+            },
+            {
+                "level": 2,
+                "title": "\u30a2\u30af\u30bb\u30b9"
+            },
+            {
+                "level": 2,
+                "title": "\u30d5\u30a7\u30ea\u30fc\u306a\u3093\u304d\u3085\u3046"
+            },
+            {
+                "level": 2,
+                "title": "\u4f50\u591a\u5cac"
+            },
+            {
+                "level": 2,
+                "title": "\u89b3\u5149\u30d0\u30b9\u306e\u65c5\u306f\u7d9a\u304f"
+            },
+            {
+                "level": 3,
+                "title": "\u8acf\u8a2a\u795e\u793e"
+            },
+            {
+                "level": 3,
+                "title": "\u7dd2\u5ddd\u306e\u6edd"
+            },
+            {
+                "level": 3,
+                "title": "\u6839\u5360\u6e2f\u306b\u5e30\u3063\u3066\u304d\u305f"
+            },
+            {
+                "level": 2,
+                "title": "\u30ea\u30f3\u30af"
+            }
+        ],
+        "slug": "japan-4poles-south"
+    },
     "sannin-18kippu_day1": {
         "published": true,
         "publishedAt": "2024-09-10",
@@ -173,6 +223,40 @@
             }
         ],
         "slug": "sannin-18kippu_day1"
+    },
+    "japan-4poles-west": {
+        "published": true,
+        "publishedAt": "2025-01-25",
+        "tags": [
+            "\u65c5\u884c",
+            "\u65e5\u672c\u672c\u571f\u56db\u6975"
+        ],
+        "created": "2024-06-26T17:15:54+09:00",
+        "modified": "2025-01-25T17:34:23+09:00",
+        "title": "\u672c\u571f\u6700\u897f\u7aef \u795e\u5d0e\u9f3b\u306b\u884c\u3063\u3066\u307f\u305f",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u795e\u5d0e\u9f3b\u3068\u306f"
+            },
+            {
+                "level": 2,
+                "title": "\u30a2\u30af\u30bb\u30b9"
+            },
+            {
+                "level": 2,
+                "title": "\u4f50\u4e16\u4fdd\u304b\u3089\u795e\u5d0e\u9f3b"
+            },
+            {
+                "level": 2,
+                "title": "\u795e\u5d0e\u9f3b\u516c\u5712"
+            },
+            {
+                "level": 2,
+                "title": "\u30ea\u30f3\u30af"
+            }
+        ],
+        "slug": "japan-4poles-west"
     },
     "kyodai-marketing-web": {
         "published": false,
@@ -242,7 +326,7 @@
             "\u65e5\u672c\u672c\u571f\u56db\u6975"
         ],
         "created": "2024-06-26T17:15:54+09:00",
-        "modified": "2025-01-24T13:58:35+09:00",
+        "modified": "2025-01-24T23:31:16+09:00",
         "title": "\u672c\u571f\u6700\u6771\u7aef \u7d0d\u6c99\u5e03\u5cac\u306b\u884c\u3063\u3066\u307f\u305f",
         "headings": [
             {
@@ -705,7 +789,7 @@
             "\u65e5\u672c\u672c\u571f\u56db\u6975"
         ],
         "created": "2024-06-26T17:15:54+09:00",
-        "modified": "2025-01-24T13:59:11+09:00",
+        "modified": "2025-01-24T23:31:26+09:00",
         "title": "\u672c\u571f\u6700\u5317\u7aef \u5b97\u8c37\u5cac\u306b\u884c\u3063\u3066\u307f\u305f",
         "headings": [
             {
