@@ -72,6 +72,7 @@ async def main() -> None:
         ".json": "application/json",
         ".txt": "text/plain",
     }
+    image_extensions = [".jpeg", ".jpg", ".png", ".webp", ".svg"]
     for file in files_to_upload:
         # ファイルの更新日時を取得
         modified_time = datetime.fromtimestamp(
@@ -83,7 +84,10 @@ async def main() -> None:
                 content = f.read()
             extension = os.path.splitext(file)[1].lower()
             content_type = content_type_map.get(extension)
-            upload_tasks.append(gcs.write(file, content, content_type=content_type))
+            cache_control = None
+            if extension in image_extensions:
+                cache_control = "immutable, max-age=31536000"
+            upload_tasks.append(gcs.write(file, content, content_type=content_type, cache_control=cache_control))
             uploaded_count += 1
     await asyncio.gather(*upload_tasks)
     print(f"アップロード処理が完了しました。アップロードファイル数: {uploaded_count}")

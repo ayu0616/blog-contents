@@ -10,15 +10,18 @@ class GCS:
         self.client = gcs.Client(project=os.environ["PROJECT_ID"])
         self.bucket = self.client.get_bucket(self.bucket_name)
 
-    async def write(self, blob_name: str, content: bytes, content_type: str | None = None) -> None:
+    async def write(self, blob_name: str, content: bytes, content_type: str | None = None, cache_control: str | None = None) -> None:
         """GCS にバイナリファイルを書き込む.
 
         Args:
             blob_name: GCS 上でのファイル名
             content: ファイルの内容 (bytes)
             content_type: Content-Type (オプション)
+            cache_control: Cache-Control ヘッダー (オプション)
         """
         blob = self.bucket.blob(blob_name)
+        if cache_control:
+            blob.cache_control = cache_control
         await asyncio.to_thread(blob.upload_from_string, content, content_type=content_type)
 
     async def read(self, blob_name: str) -> bytes:
