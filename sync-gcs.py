@@ -62,6 +62,16 @@ async def main() -> None:
     print("アップロード処理を開始します...")
     upload_tasks = []
     uploaded_count = 0
+    content_type_map = {
+        ".jpeg": "image/jpeg",
+        ".jpg": "image/jpeg",
+        ".png": "image/png",
+        ".webp": "image/webp",
+        ".svg": "image/svg+xml",
+        ".md": "text/markdown",
+        ".json": "application/json",
+        ".txt": "text/plain",
+    }
     for file in files_to_upload:
         # ファイルの更新日時を取得
         modified_time = datetime.fromtimestamp(
@@ -71,7 +81,9 @@ async def main() -> None:
             print(f"  {file} をアップロードします")
             with open(file, "rb") as f:
                 content = f.read()
-            upload_tasks.append(gcs.write(file, content))
+            extension = os.path.splitext(file)[1].lower()
+            content_type = content_type_map.get(extension)
+            upload_tasks.append(gcs.write(file, content, content_type=content_type))
             uploaded_count += 1
     await asyncio.gather(*upload_tasks)
     print(f"アップロード処理が完了しました。アップロードファイル数: {uploaded_count}")
