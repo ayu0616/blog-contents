@@ -36,6 +36,7 @@ def get_json(slug: str) -> dict[str, object]:
     yaml_flag = False
     yaml_lines = []
     headings = []
+    thumbnail = None  # サムネイルの初期値をNoneに設定
     for line in lines:
         if line == "---" and not yaml_flag:
             yaml_flag = True
@@ -45,6 +46,13 @@ def get_json(slug: str) -> dict[str, object]:
             break
         if yaml_flag:
             yaml_lines.append(line)
+    for line in lines:
+        if thumbnail is None:  # 最初の画像が見つかるまで
+            image_match = re.search(r"^!\[.*?\]\((.*?\.webp)\)", line)
+            if image_match:
+                image_path = image_match.group(1)
+                thumbnail = os.path.basename(image_path) # ファイル名のみ抽出
+
     dic: dict[str, object] = yaml.safe_load("\n".join(yaml_lines))  # yamlから辞書を作成
     for line in lines:
         if line.startswith("# "):
@@ -63,6 +71,7 @@ def get_json(slug: str) -> dict[str, object]:
             )
     dic["headings"] = headings
     dic["slug"] = slug
+    dic["thumbnail"] = thumbnail
     return dic
 
 

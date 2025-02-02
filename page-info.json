@@ -26,7 +26,8 @@
                 "title": "Arc\u3068\u306f"
             }
         ],
-        "slug": "alt-tab_little-arc"
+        "slug": "alt-tab_little-arc",
+        "thumbnail": null
     },
     "monty_hall": {
         "published": true,
@@ -71,7 +72,8 @@
                 "title": "\u3055\u3044\u3054\u306b"
             }
         ],
-        "slug": "monty_hall"
+        "slug": "monty_hall",
+        "thumbnail": null
     },
     "arc_gemini-nano": {
         "published": true,
@@ -97,7 +99,8 @@
                 "title": "\u3084\u3063\u3066\u307f\u305f"
             }
         ],
-        "slug": "arc_gemini-nano"
+        "slug": "arc_gemini-nano",
+        "thumbnail": null
     },
     "raycast-obsidian": {
         "published": true,
@@ -122,7 +125,8 @@
                 "title": "\u5bfe\u7b56"
             }
         ],
-        "slug": "raycast-obsidian"
+        "slug": "raycast-obsidian",
+        "thumbnail": null
     },
     "japan-4poles-south": {
         "published": true,
@@ -172,7 +176,8 @@
                 "title": "\u30ea\u30f3\u30af"
             }
         ],
-        "slug": "japan-4poles-south"
+        "slug": "japan-4poles-south",
+        "thumbnail": "D4E65D51-C877-4A2D-A176-66337926BCB9_1_201_a.webp"
     },
     "sannin-18kippu_day1": {
         "published": true,
@@ -222,7 +227,8 @@
                 "title": "\u667a\u982d\u2192\u5009\u5409"
             }
         ],
-        "slug": "sannin-18kippu_day1"
+        "slug": "sannin-18kippu_day1",
+        "thumbnail": "IMG_9957.webp"
     },
     "japan-4poles-west": {
         "published": true,
@@ -256,7 +262,8 @@
                 "title": "\u30ea\u30f3\u30af"
             }
         ],
-        "slug": "japan-4poles-west"
+        "slug": "japan-4poles-west",
+        "thumbnail": "IMG_5598.webp"
     },
     "kyodai-marketing-web": {
         "published": false,
@@ -286,7 +293,8 @@
                 "title": "\u958b\u767a\u306e\u6d41\u308c"
             }
         ],
-        "slug": "kyodai-marketing-web"
+        "slug": "kyodai-marketing-web",
+        "thumbnail": null
     },
     "python_match-case": {
         "published": true,
@@ -316,7 +324,8 @@
                 "title": "\u307e\u3068\u3081"
             }
         ],
-        "slug": "python_match-case"
+        "slug": "python_match-case",
+        "thumbnail": null
     },
     "japan-4poles-east": {
         "published": true,
@@ -354,7 +363,8 @@
                 "title": "\u30ea\u30f3\u30af"
             }
         ],
-        "slug": "japan-4poles-east"
+        "slug": "japan-4poles-east",
+        "thumbnail": "0591936C-1305-437B-AD18-44B22E90DDC7_1_102_o.webp"
     },
     "hitofude-kippu": {
         "published": true,
@@ -411,7 +421,8 @@
                 "title": "\u4e00\u7b46\u66f8\u304d\u304d\u3063\u3077\u3067\u65c5\u884c\u3057\u3066\u307f\u305f"
             }
         ],
-        "slug": "hitofude-kippu"
+        "slug": "hitofude-kippu",
+        "thumbnail": null
     },
     "beaujolais-catchcopy-generator": {
         "published": true,
@@ -515,7 +526,8 @@
                 "title": "\u5b8c\u6210"
             }
         ],
-        "slug": "beaujolais-catchcopy-generator"
+        "slug": "beaujolais-catchcopy-generator",
+        "thumbnail": null
     },
     "table-overflow": {
         "published": true,
@@ -538,7 +550,8 @@
                 "title": "\u89e3\u6c7a\u65b9\u6cd5"
             }
         ],
-        "slug": "table-overflow"
+        "slug": "table-overflow",
+        "thumbnail": null
     },
     "my-site": {
         "published": true,
@@ -580,7 +593,8 @@
                 "title": "\u3053\u308c\u304b\u3089"
             }
         ],
-        "slug": "my-site"
+        "slug": "my-site",
+        "thumbnail": null
     },
     "phrase_on-dajare-freeze": {
         "published": false,
@@ -633,7 +647,8 @@
                 "title": "\u6c96\u7e04"
             }
         ],
-        "slug": "phrase_on-dajare-freeze"
+        "slug": "phrase_on-dajare-freeze",
+        "thumbnail": null
     },
     "sannin-18kippu_day3": {
         "published": true,
@@ -679,7 +694,8 @@
                 "title": "\u59eb\u8def"
             }
         ],
-        "slug": "sannin-18kippu_day3"
+        "slug": "sannin-18kippu_day3",
+        "thumbnail": "AE89C88E-E255-4705-9114-9E1EB5C020D6_1_105_c.webp"
     },
     "go_school_routes": {
         "published": true,
@@ -717,7 +733,8 @@
                 "title": "\u7d4c\u8def\u306e\u7dcf\u6570\u3092\u6c42\u3081\u308b"
             }
         ],
-        "slug": "go_school_routes"
+        "slug": "go_school_routes",
+        "thumbnail": "routes.webp"
     },
     "sannin-18kippu_day2": {
         "published": true,
@@ -779,7 +796,8 @@
                 "title": "\u51fa\u96f2\u2192\u7c73\u5b50"
             }
         ],
-        "slug": "sannin-18kippu_day2"
+        "slug": "sannin-18kippu_day2",
+        "thumbnail": "33248006-1C43-4C96-90B5-60A35CBAEA16_1_201_a.webp"
     },
     "japan-4poles-north": {
         "published": true,
@@ -817,7 +835,8 @@
                 "title": "\u30ea\u30f3\u30af"
             }
         ],
-        "slug": "japan-4poles-north"
+        "slug": "japan-4poles-north",
+        "thumbnail": "EACA2CA4-4224-495A-BCC0-623A49E01E7C_1_201_a.webp"
     },
     "csharp-dflat": {
         "published": true,
@@ -851,7 +870,8 @@
                 "title": "\u307e\u3068\u3081"
             }
         ],
-        "slug": "csharp-dflat"
+        "slug": "csharp-dflat",
+        "thumbnail": null
     },
     "marp-tailwindcss": {
         "published": false,
@@ -874,7 +894,8 @@
                 "title": "\u3084\u308a\u305f\u3044\u3053\u3068"
             }
         ],
-        "slug": "marp-tailwindcss"
+        "slug": "marp-tailwindcss",
+        "thumbnail": null
     },
     "poster-kyoto-univ": {
         "published": true,
@@ -916,7 +937,8 @@
                 "title": "\u307e\u3068\u3081"
             }
         ],
-        "slug": "poster-kyoto-univ"
+        "slug": "poster-kyoto-univ",
+        "thumbnail": "IMG_2816.webp"
     },
     "saga_2024": {
         "published": true,
@@ -981,7 +1003,8 @@
                 "title": "\u304a\u308f\u308a"
             }
         ],
-        "slug": "saga_2024"
+        "slug": "saga_2024",
+        "thumbnail": "IMG_4373.webp"
     },
     "test": {
         "published": false,
@@ -994,7 +1017,8 @@
         "modified": "2025-01-18T20:04:12+09:00",
         "title": "\u30c6\u30b9\u30c8\u30da\u30fc\u30b8",
         "headings": [],
-        "slug": "test"
+        "slug": "test",
+        "thumbnail": null
     },
     "sannin-18kippu": {
         "published": true,
@@ -1020,6 +1044,7 @@
                 "title": "\u8cbb\u7528"
             }
         ],
-        "slug": "sannin-18kippu"
+        "slug": "sannin-18kippu",
+        "thumbnail": null
     }
 }
