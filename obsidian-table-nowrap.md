@@ -23,7 +23,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## やりたいこと
 
 Obsidianでテーブルを作成したときに、カラムの数が多くなってくると表示がやや崩れ気味になることが気になっている。
-そのため、カラム数が多くなってもテキストを折り返さず表示する方法はないか試してみた。
+そのため、カラム数が多くなってもテキストを折り返さず表示する方法はないか試してみました。
 
 【現状】
 - Obsidianのテーブルはテーブル全体の幅が画面の横幅を超えないように調整される
@@ -43,15 +43,19 @@ Obsidianでテーブルを作成したときに、カラムの数が多くなっ
 ## CSSで指定すれば良い
 
 ```css
-th > div.table-cell-wrapper {
-    background-color: #f8fafc !important; /* ヘッダの背景色（任意） */
-}
-
 th > div.table-cell-wrapper,
 td > div.table-cell-wrapper {
-    padding: 0.5em 1em !important; /* 余白調整（任意） */
+    padding: 0.5em 1em !important; /* 余白を設定（任意） */
+}
 
-    white-space: nowrap !important; /* テキスト折り返し防止 */
+body {
+    --table-white-space: nowrap; /* テーブル内のテキストの折り返しを禁止 */
+    --table-header-background: #f8fafc; /* テーブルヘッダーの背景色を設定（任意） */
 }
 ```
 
+上のCSSをObsidianのCSSスニペットに追加してやれば想定していたテーブルを作成することができます。
+
+CSSスニペットについては別の方が書かれた[こちらの記事](https://zenn.dev/estra/books/obsidian-dot-zenn/viewer/b-oz-css-snippets)をご覧ください。
+
+Obsidianのdevtoolを開いて調べてみると、`--table-white-space`という変数がテキストの折り返しを司っていることがはんめんしたので
