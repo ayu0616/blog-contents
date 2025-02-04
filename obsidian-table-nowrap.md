@@ -58,4 +58,4 @@ body {
 
 CSSスニペットについては別の方が書かれた[こちらの記事](https://zenn.dev/estra/books/obsidian-dot-zenn/viewer/b-oz-css-snippets)をご覧ください。
 
-Obsidianのdevtoolを開いて調べてみると、`--table-white-space`という変数がテキストの折り返しを司っていることがはんめんしたので
+Obsidianのdevtoolを開いて調べてみると、`--table-white-space`という変数がテキストの折り返しを司っていることが判明したので、これを上書きしてやることでテキストを折り返さないよう設定することができます。
