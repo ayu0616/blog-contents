@@ -1,11 +1,11 @@
 ---
-published: false
-publishedAt: 
+published: true
+publishedAt: 2025-02-04
 tags:
   - 備忘録
   - Obsidian
 created: 2025-02-04 17:08:55+09:00
-modified: 2025-02-04 17:46:16+09:00
+modified: 2025-02-04 18:34:38+09:00
 ---
 
 # Obsidianで表のセルに入力したテキストを折り返さないで表示する方法
@@ -59,3 +59,6 @@ body {
 CSSスニペットについては別の方が書かれた[こちらの記事](https://zenn.dev/estra/books/obsidian-dot-zenn/viewer/b-oz-css-snippets)をご覧ください。
 
 Obsidianのdevtoolを開いて調べてみると、`--table-white-space`という変数がテキストの折り返しを司っていることが判明したので、これを上書きしてやることでテキストを折り返さないよう設定することができます。
+アップデートでHTMLの構造が変更される可能性があったりするので、CSSセレクタでスタイルを当てるより変数を書き換えるほうが変更に強いと思います。
+
+セルの余白については専用の変数が見つからなかったので直接指定しています。
