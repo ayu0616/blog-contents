@@ -1,31 +1,36 @@
-def validate_callout(lines: list[str])->bool:
-    in_callout = False
-    config_lines: list[str] = []
-    for line in lines:
-        line = line.strip()
-        if line == '```callout':
-            in_callout = True
-            config_lines = []
-            continue
-        if in_callout:
-            if line == '----':
-                in_callout = False # configの終わりではなく、configの区切りと解釈
-                if not config_lines:
-                    continue # 設定行がない場合は次のcalloutを探す
-                config = {}
-                for config_line in config_lines:
-                    if ':' not in config_line:
-                        continue # key-value形式でない行は無視する
-                    key, value = config_line.split(':', 1)
-                    config[key.strip()] = value.strip()
+import yaml
 
-                if 'title' in config and 'icon' in config and len(config) == 2:
-                    return True # 有効なcalloutが見つかったらTrueを返す
-                config_lines = [] # reset config_lines for the next callout block
-                continue
-            if line == '```':
-                in_callout = False # calloutブロック全体の終わり
-                config_lines = [] # calloutが終わるのでconfig_linesをリセット
-                continue
-            config_lines.append(line)
-    return False # 有効なcalloutブロックが見つからなかった
+
+def validate_callout_config(config_lines: list[str]) -> str | None:
+    config = yaml.safe_load("\n".join(config_lines))
+    if not isinstance(config, dict):
+        return "Callout config must be a YAML dictionary"
+    if "title" not in config or "icon" not in config:
+        return "Callout config must contain a type field"
+    return None
+
+
+def validate_callout(lines: list[str]) -> str | None:
+    is_callout = False
+    callout_config_lines: list[str] = []
+    is_config = False
+    for i, line in enumerate(lines):
+        if is_callout:
+            if line.strip() == "```":
+                if is_config:
+                    return f"Callout config block not closed at line {i}"
+                is_callout = False
+            elif is_config:
+                if line.strip() == "----":
+                    is_config = False
+                    validate_res = validate_callout_config(callout_config_lines)
+                    if validate_res is not None:
+                        return f"Invalid callout config at line {i}: {validate_res}"
+                    callout_config_lines = []
+                else:
+                    callout_config_lines.append(line)
+            elif line.strip() == "----":
+                is_config = True
+        elif line.startswith("```callout"):
+            is_callout = True
+    return None
