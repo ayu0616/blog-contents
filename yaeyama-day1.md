@@ -87,3 +87,5 @@ debugInConsole: false # Print debug info in Obsidian console
 - 八重山権現堂 （桃林寺のとなり）
 
 桃林寺は市街地の中にあって、鍾乳洞は市街地から3kmぐらいの場所にあります。
+まずは鍾乳洞に向かうことにしました。バスはないので徒歩で。
+
