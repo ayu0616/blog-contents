@@ -21,7 +21,7 @@ def validate_callout(lines: list[str]) -> str | None:
                     return f"Callout config block not closed at line {i}"
                 is_callout = False
             elif is_config:
-                if line.strip() == "----":
+                if line.strip().startswith("----"):
                     is_config = False
                     validate_res = validate_callout_config(callout_config_lines)
                     if validate_res is not None:
@@ -29,7 +29,7 @@ def validate_callout(lines: list[str]) -> str | None:
                     callout_config_lines = []
                 else:
                     callout_config_lines.append(line)
-            elif line.strip() == "----":
+            elif line.strip().startswith("----"):
                 is_config = True
         elif line.startswith("```callout"):
             is_callout = True

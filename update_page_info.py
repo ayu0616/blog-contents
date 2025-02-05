@@ -8,6 +8,8 @@ from datetime import date, datetime
 import yaml
 from pydantic import BaseModel
 
+from util.validate import validate_callout
+
 
 IGNORE_SLUGS = {
     "template",
@@ -19,6 +21,14 @@ def is_target(slug: str) -> bool:
     if slug in IGNORE_SLUGS:
         return False
     return True
+
+
+def validate(slug: str) -> None:
+    with open(f"{slug}.md", "r") as f:
+        lines = f.read().splitlines()
+    res = validate_callout(lines)
+    if res is not None:
+        raise ValueError(f"Validation failed for {slug}: {res}")
 
 
 # date, datetimeの変換関数
@@ -51,7 +61,7 @@ def get_json(slug: str) -> dict[str, object]:
             image_match = re.search(r"^!\[.*?\]\((.*?\.webp)\)", line)
             if image_match:
                 image_path = image_match.group(1)
-                thumbnail = os.path.basename(image_path) # ファイル名のみ抽出
+                thumbnail = os.path.basename(image_path)  # ファイル名のみ抽出
 
     dic: dict[str, object] = yaml.safe_load("\n".join(yaml_lines))  # yamlから辞書を作成
     for line in lines:
@@ -79,8 +89,10 @@ def main() -> None:
     os.chdir(os.path.dirname(__file__))
 
     page_info = {}
+
     for md_path in glob.glob("*.md"):
         slug = os.path.splitext(md_path)[0]
+        validate(slug)
         dic = get_json(slug)
         page_info[slug] = dic
     json.dump(page_info, open("page-info.json", "w"), default=json_serial, indent=4)
