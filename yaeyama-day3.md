@@ -44,4 +44,5 @@ debugInConsole: false # Print debug info in Obsidian console
 ![トイレに設置されていた怪しい流し](IMG_6748.webp)
 
 さすがは日本一のゲロ船。
+万全の嘔吐受け入れ体制でお客様の嘔吐をお待ちしております と言わんばかりの充実っぷり。
 
