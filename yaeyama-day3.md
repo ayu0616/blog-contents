@@ -18,3 +18,9 @@ includeLinks: true # Make headings clickable
 hideWhenEmpty: false # Hide TOC if no headings are found
 debugInConsole: false # Print debug info in Obsidian console
 ```
+## フェリーよなくに
+
+石垣島から与那国島への交通手段はおもに2つ
+
+- フェリー： 所要時間約4時間半
+- 飛行機： しょよう時間約30分
