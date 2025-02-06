@@ -46,3 +46,7 @@ debugInConsole: false # Print debug info in Obsidian console
 さすがは日本一のゲロ船。
 万全の嘔吐受け入れ体制でお客様の嘔吐をお待ちしております と言わんばかりの充実っぷり。
 
+
+実際、なかなかの揺れっぷりで
+
+![船から見た西崎灯台](IMG_6788.webp)
