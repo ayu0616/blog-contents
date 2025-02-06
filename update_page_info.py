@@ -24,11 +24,12 @@ def is_target(slug: str) -> bool:
 
 
 def validate(slug: str) -> None:
-    with open(f"{slug}.md", "r") as f:
+    filepath = f"{slug}.md"
+    with open(filepath, "r") as f:
         lines = f.read().splitlines()
     res = validate_callout(lines)
     if res is not None:
-        raise ValueError(f"Validation failed for {slug}: {res}")
+        raise ValueError(f"Validation failed for {filepath}: {res}")
 
 
 # date, datetimeの変換関数
