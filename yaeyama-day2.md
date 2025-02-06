@@ -18,3 +18,7 @@ includeLinks: true # Make headings clickable
 hideWhenEmpty: false # Hide TOC if no headings are found
 debugInConsole: false # Print debug info in Obsidian console
 ```
+## 石垣港フェリーターミナル
+
+石垣島からは八重山諸島の島々にフェリーが出ています。
+石垣港はかくしま
