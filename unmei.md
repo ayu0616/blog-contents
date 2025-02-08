@@ -1,7 +1,8 @@
 ---
 published: false
 publishedAt: 
-tags: 
+tags:
+  - 思考
 created: 2024-06-26 17:15:54+09:00
 modified: 2025-02-08 11:19:08+09:00
 ---
