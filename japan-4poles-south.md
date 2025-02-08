@@ -106,7 +106,7 @@ minLevel: 2
 
 ほかの日本本土四極の記事はこちらから！
 
-- [最東端](../japan-4poles-east)
-- [最北端](../japan-4poles-north)
+- [最東端](/blogjapan-4poles-east)
+- [最北端](/blogjapan-4poles-north)
 - 最南端（この記事）
-- [最西端](../japan-4poles-west)
+- [最西端](/blogjapan-4poles-west)

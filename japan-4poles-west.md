@@ -78,7 +78,7 @@ Googleマップの案内に従って歩いていくと神崎鼻公園にたど�
 
 ほかの日本本土四極の記事はこちらから！
 
-- [最東端](../japan-4poles-east)
-- [最北端](../japan-4poles-north)
-- [最南端](../japan-4poles-south)
+- [最東端](/blogjapan-4poles-east)
+- [最北端](/blogjapan-4poles-north)
+- [最南端](/blogjapan-4poles-south)
 - 最西端（この記事）
