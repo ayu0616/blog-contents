@@ -1,10 +1,10 @@
 ---
-published: false
-publishedAt:
+published: true
+publishedAt: 2025-02-08
 tags:
   - 旅行
 created: 2025-02-05 23:11:20+09:00
-modified: 2025-02-08 11:18:19+09:00
+modified: 2025-02-08 11:19:36+09:00
 ---
 
 # 八重山旅行 5日目 （由布島→帰宅）

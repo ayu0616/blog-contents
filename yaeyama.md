@@ -1,10 +1,10 @@
 ---
-published: false
-publishedAt: 
+published: true
+publishedAt: 2025-02-08
 tags:
   - 旅行
 created: 2025-02-05 18:04:02+09:00
-modified: 2025-02-05 23:11:21+09:00
+modified: 2025-02-08 11:19:15+09:00
 ---
 
 # 車なし八重山一人旅

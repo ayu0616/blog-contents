@@ -1,10 +1,10 @@
 ---
-published: false
-publishedAt: 
+published: true
+publishedAt: 2025-02-08
 tags:
   - 旅行
 created: 2025-02-05 23:11:20+09:00
-modified: 2025-02-06 21:03:31+09:00
+modified: 2025-02-08 11:19:24+09:00
 ---
 
 # 八重山旅行 2日目 （竹富）

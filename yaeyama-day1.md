@@ -1,10 +1,10 @@
 ---
-published: false
-publishedAt: 
+published: true
+publishedAt: 2025-02-08
 tags:
   - 旅行
 created: 2025-02-05 23:11:20+09:00
-modified: 2025-02-06 00:21:32+09:00
+modified: 2025-02-08 11:19:20+09:00
 ---
 
 # 八重山旅行 1日目 （飛行機→石垣）
