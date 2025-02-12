@@ -27,8 +27,19 @@ GingerのMVがYouTubeのアルゴリズムに激推しされて何度もサム�
 
 <iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/z01gL_ahiOQ?si=YuyTVecewxGR6p0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+彼女のことをこのMV出始めて知ったと思っていたのですが、実は違ったかもしれません。
+
+TOMOOのことを知る前に、kobasoloというチャンネルを見漁っていた時期がありました。
+kobasoloのチャンネルにはTOMOOの「恋する10秒」という楽曲のMVが投稿されていたのです。私、これ見たことがあるような気がしています。
+
+もし本当にこのMVを見たことがあるとすれば、その当時の自分にはあまりハマらなかったのでしょう。
+ハマっていればこの時点で名前を認知していたはずですから。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ra4XHBBGqVM?si=sL8PmmrFVwetqKvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## 事例2. ラーメンズ
+
+ラーメンズという現在はもう解散してしまったコントグループです。
 
 ## 言いたいこと
