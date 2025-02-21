@@ -5,7 +5,7 @@ tags:
   - 旅行
   - 日本本土四極
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-02-21 12:23:08+09:00
+modified: 2025-02-21 12:46:43+09:00
 ---
 
 # 本土最南端 佐多岬に行ってみた
@@ -32,6 +32,13 @@ minLevel: 2
 4. 根占港から季節限定で観光バスツアーがあるので、それに参加する
 
 季節限定のバスツアーについては[こちら](https://www.town.minamiosumi.lg.jp/kanko/kanko_bus.html)をご参照ください。3月から10月の運行だそうです。
+
+```cardlink
+url: https://www.town.minamiosumi.lg.jp/kanko/kanko_bus.html
+title: "観光周遊バスの運行について"
+host: www.town.minamiosumi.lg.jp
+image: http://www.town.minamiosumi.lg.jp/shared/images/sns/logo.png
+```
 
 ## フェリーなんきゅう
 

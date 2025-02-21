@@ -34,6 +34,19 @@ minLevel: 2
 レンタサイクルは約2,000円で借りることができ、宗谷岬で乗り捨ても可能です。
 今回の訪問では宗谷岬で乗り捨てして路線バスで帰りました。
 
+今回は稚内駅にある観光案内所で自転車を借りました。
+
+
+```cardlink
+url: https://www.north-hokkaido.com/spot/detail_1199.html
+title: "稚内レンタサイクル｜観光スポット｜【公式】きた・北海道/稚内・利尻・礼文の観光WEBサイト"
+description: "稚内観光協会では、4月下旬から10月下旬（気象状況等により変動あり）までレンタサイクルの貸出を行っています。市内の観光スポットや日本のてっぺん・宗谷岬までサイクリング等楽しみ方は色々！坂道ラクラクの電動アシストや遠乗りに最適なクロスバイク等を…"
+host: www.north-hokkaido.com
+favicon: https://www.north-hokkaido.com/common/images/favicon.svg
+image: https://www.north-hokkaido.com/lsc/upfile/spot/0000/1199/1199_1_l.jpg
+```
+
+
 ## レンタサイクルで宗谷岬へ
 
 レンタサイクルを利用する際は、天候に十分注意しましょう！
