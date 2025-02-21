@@ -5,7 +5,7 @@ tags:
   - 旅行
   - 日本本土四極
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-01-24 23:31:26+09:00
+modified: 2025-02-21 12:48:23+09:00
 ---
 
 # 本土最北端 宗谷岬に行ってみた
@@ -36,7 +36,6 @@ minLevel: 2
 
 今回は稚内駅にある観光案内所で自転車を借りました。
 
-
 ```cardlink
 url: https://www.north-hokkaido.com/spot/detail_1199.html
 title: "稚内レンタサイクル｜観光スポット｜【公式】きた・北海道/稚内・利尻・礼文の観光WEBサイト"
@@ -45,7 +44,6 @@ host: www.north-hokkaido.com
 favicon: https://www.north-hokkaido.com/common/images/favicon.svg
 image: https://www.north-hokkaido.com/lsc/upfile/spot/0000/1199/1199_1_l.jpg
 ```
-
 
 ## レンタサイクルで宗谷岬へ
 

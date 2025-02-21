@@ -4,7 +4,7 @@ publishedAt: 2025-02-08
 tags:
   - 旅行
 created: 2025-02-05 23:11:20+09:00
-modified: 2025-02-08 11:19:31+09:00
+modified: 2025-02-21 12:50:21+09:00
 ---
 
 # 八重山旅行 4日目 （与那国）
@@ -39,6 +39,15 @@ JALのスカイメイト（25歳以下が利用できる当日割）を利用す
 
 レンタサイクルはJALが運営している空港レンタサイクルを利用。空港で借りて、返却も空港なので非常にスムーズです。
 事前にインターネットで予約して、3,000円をクレジットカードで支払いました。
+
+```cardlink
+url: https://www.japawalk.com/list/detail?plan_code1=JW&plan_code2=OG0002A
+title: "｜＜沖縄冬のおすすめ＞与那国サイクリングツアー（与那国空港“JAL レンタサイクル”）"
+description: "沖縄のレンタサイクル、＜沖縄冬のおすすめ＞与那国サイクリングツアー（与那国空港“JAL レンタサイクル”）のご案内。沖縄の旅をさらに楽しくJAPAWALK。"
+host: www.japawalk.com
+favicon: https://www.japawalk.com/favicon.ico?w=250221pm
+image: https://www.japawalk.com/photo/JJS/0000981.jpg
+```
 
 ![与那国空港にて](IMG_6879.webp)
 
