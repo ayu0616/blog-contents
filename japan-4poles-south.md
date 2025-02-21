@@ -5,7 +5,7 @@ tags:
   - 旅行
   - 日本本土四極
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-01-25 17:21:11+09:00
+modified: 2025-02-21 12:23:08+09:00
 ---
 
 # 本土最南端 佐多岬に行ってみた
@@ -106,7 +106,7 @@ minLevel: 2
 
 ほかの日本本土四極の記事はこちらから！
 
-- [最東端](/blogjapan-4poles-east)
-- [最北端](/blogjapan-4poles-north)
+- [最東端](/blog/japan-4poles-east)
+- [最北端](/blog/japan-4poles-north)
 - 最南端（この記事）
-- [最西端](/blogjapan-4poles-west)
+- [最西端](/blog/japan-4poles-west)

@@ -5,7 +5,7 @@ tags:
   - 旅行
   - 日本本土四極
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-01-27 09:03:09+09:00
+modified: 2025-02-21 12:22:18+09:00
 ---
 
 # 本土最西端 神崎鼻に行ってみた
@@ -78,7 +78,7 @@ Googleマップの案内に従って歩いていくと神崎鼻公園にたど�
 
 ほかの日本本土四極の記事はこちらから！
 
-- [最東端](/blogjapan-4poles-east)
-- [最北端](/blogjapan-4poles-north)
-- [最南端](/blogjapan-4poles-south)
+- [最東端](/blog/japan-4poles-east)
+- [最北端](/blog/japan-4poles-north)
+- [最南端](/blog/japan-4poles-south)
 - 最西端（この記事）
