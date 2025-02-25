@@ -4,7 +4,7 @@ publishedAt:
 tags:
   - 思考
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-02-21 12:21:32+09:00
+modified: 2025-02-25 15:59:40+09:00
 ---
 
 # 好きを自覚する前に知らずのうちに出会っていた
@@ -38,16 +38,48 @@ kobasoloのチャンネルにはTOMOOの「恋する10秒」という楽曲のMV
 
 ## 事例2. ラーメンズ
 
-ラーメンズという現在はもう解散してしまったコントグループです。
+ラーメンズはコントグループです。
 私がラーメンズを知ったのは高校生になってから。YouTubeで公式チャンネルの動画をよく見ていました。
 
-<iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/videoseries?si=9DS8g_d_J5qG9z-Z&list=PL8F5954573F498DEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+しかしもっと昔の小学生の頃からラーメンズの作品に触れていたことに後から気づきました。
 
-しかし、実はラーメンズの作品には以前にも触れたことがありました。
-それは、NHKの「日本語であそぼ」という番組です。この番組の中で、小林賢太郎さんが「私」という一人称をひたすら連呼するコーナーがありました。
-当時は何も知らずに見ていましたが、あれはラーメンズのコント「本人」の一部だったのです。
+【日本の形】
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xkKSJFLuy_w?si=8qa47fEov1pSqygU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/qS6mP-DZ-bE?si=9vj_X-h_r-w-e_e_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+1つ目は「日本の形」という作品シリーズです。
+
+こちらの作品は、日本文化を海外に紹介する体をとってでたらめな文化を紹介するというコンテンツです。
+小学生の頃にYouTubeで発見してことあるごとに見ていました。
+
+作成したのはNAMIKIBASHIというユニットなのですが、このメンバーにラーメンズの小林賢太郎が
+
+
+```cardlink
+url: https://dic.nicovideo.jp/a/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%BD%A2
+title: "日本の形とは (ニホンノカタチとは) [単語記事] - ニコニコ大百科"
+description: "この記事の絵が今週の扉絵に選ばれました！ これからも、みんながニコニコ出来る絵をお願いします。 多分、こんな形。 え？違った？ 上の日本の形が間違っていると思ったら、この記事のお絵カキ..."
+host: dic.nicovideo.jp
+image: https://dic.nicovideo.jp/oekaki/363947.png
+```
+
+
+【千葉滋賀佐賀】
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4_ZWXRhhPA?si=V62PJQ89ESWXwgZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+こちらは「千葉滋賀佐賀」というFlashムービーです。
+ラーメンズの「日本語学校イタリア編」の音声を利用して作成された映像です。
+
+ラーメンズのコントに初めて出会った作品がこちらだと思います。音声だけですが。
+
+
+```cardlink
+url: https://dic.nicovideo.jp/a/%E5%8D%83%E8%91%89%21%E6%BB%8B%E8%B3%80%21%E4%BD%90%E8%B3%80%21
+title: "千葉!滋賀!佐賀!とは (チバシガサガとは) [単語記事] - ニコニコ大百科"
+description: "千葉!滋賀!佐賀!とは、修学旅行でみんなで行った場所であり、いつも心にある思い出の地であり、日本の首都である。 概要 元ネタは、お笑いコンビラーメンズが2001年1月13日放送の第76回『..."
+host: dic.nicovideo.jp
+image: https://dic.nicovideo.jp/img/og_b.jpg
+```
+
 
 ## 言いたいこと
 
