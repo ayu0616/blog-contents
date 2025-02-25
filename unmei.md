@@ -39,5 +39,17 @@ kobasoloのチャンネルにはTOMOOの「恋する10秒」という楽曲のMV
 ## 事例2. ラーメンズ
 
 ラーメンズという現在はもう解散してしまったコントグループです。
+私がラーメンズを知ったのは高校生になってから。YouTubeで公式チャンネルの動画をよく見ていました。
+
+<iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/videoseries?si=9DS8g_d_J5qG9z-Z&list=PL8F5954573F498DEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+しかし、実はラーメンズの作品には以前にも触れたことがありました。
+それは、NHKの「日本語であそぼ」という番組です。この番組の中で、小林賢太郎さんが「私」という一人称をひたすら連呼するコーナーがありました。
+当時は何も知らずに見ていましたが、あれはラーメンズのコント「本人」の一部だったのです。
+
+<iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/qS6mP-DZ-bE?si=9vj_X-h_r-w-e_e_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 言いたいこと
+
+好きを自覚する前に、実はその対象に出会っていることって、意外とあるのかもしれない。
+そして、その時は何とも思わなかったものが、後になって好きになることもある。
