@@ -26,6 +26,17 @@ GingerのMVがYouTubeのアルゴリズムに激推しされて何度もサム�
 
 <iframe width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/z01gL_ahiOQ?si=YuyTVecewxGR6p0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+```cardlink
+url: https://www.youtube.com/channel/UCFN-7pQE8CUkruAAJ5IFSLw
+title: "TOMOO"
+description: "東京都出身 / シンガーソングライター6歳よりピアノを始める。のちに、聴いたことがない楽曲の歌詞に自分で即興のメロディをつけ歌って遊んでいたことなどをきっかけに、作曲に興味を持つようになる。中学に入りオリジナル曲の制作を開始。その後本格的に音楽活動をスタートさせる。2022年8月3日、PONYCANYON/IRORI RecordsよりMajor 1st Digital Single「オセロ」をリリース。2023年9月27日、1st Album『TWO MOON』をリリース。2025年5月23日、自身最大規模となる武道館でのワンマンライブを開催。"
+host: www.youtube.com
+favicon: https://www.youtube.com/s/desktop/895092ef/img/logos/favicon_32x32.png
+image: https://yt3.googleusercontent.com/FkHmkiXbyo1dyQboPWDIhBNwhR1ZT_mNe0_BpEK6OqUV0v4NuAXYbkIVn_rcsOEb04Y0rXO3=s900-c-k-c0x00ffffff-no-rj
+```
+
+
 彼女のことをこのMV出始めて知ったと思っていたのですが、実は違ったかもしれません。
 
 TOMOOのことを知る前に、kobasoloというチャンネルを見漁っていた時期がありました。
@@ -36,10 +47,30 @@ kobasoloのチャンネルにはTOMOOの「恋する10秒」という楽曲のMV
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ra4XHBBGqVM?si=sL8PmmrFVwetqKvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+TOMOOに出会う前にOfficial髭男dismを好きになって、YouTubeにあるカバーを聴き漁っていた時期がありました。
+そんなときに実はTOMOOに出会っていたことに後から気づきました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bnRqymUka8c?si=fdcSfFCDnOhmXke5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+115万キロのフィルムのカバー動画です。
+TOMOOをTOMOOとして認知する前にこのカバーを聞いたことがありました。当時はおそらくYouTubeにあふれる歌うま素人の動画だと思っていました。もったいないですね。
+
 ## 事例2. ラーメンズ
 
 ラーメンズとは小林賢太郎と片桐仁からなるお笑いコンビです。2020年に小林賢太郎がパフォーマーとしての活動から引退したことで事実上解散したとされています。
 私がラーメンズを知ったのは高校生になってから。YouTubeで公式チャンネルの動画をよく見ていました。
+
+
+```cardlink
+url: https://www.youtube.com/@%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA%E5%85%AC%E5%BC%8F
+title: "ラーメンズ公式"
+description: "作成した動画を友だち、家族、世界中の人たちと共有"
+host: www.youtube.com
+favicon: https://www.youtube.com/s/desktop/895092ef/img/logos/favicon_32x32.png
+image: https://yt3.googleusercontent.com/ytc/AIdro_mvFr_aYoyVM7CyADjFFKeuuOMmB29mFH2wnP55LBjZ1Q=s900-c-k-c0x00ffffff-no-rj
+```
+
 
 しかしもっと昔の小学生の頃からラーメンズの作品に触れていたことに後から気づきました。
 
@@ -84,4 +115,8 @@ image: https://dic.nicovideo.jp/img/og_b.jpg
 
 ## 言いたいこと
 
-1. 自分がハマるものって
+1. 自分がハマるものに、実はハマるタイミングよりも前に出会っていることが多い
+2. そういった場合、「初めて出会ったタイミングで好きになっていれば」と思ったりしがちだが、その当時の自分にはまだ早かっただけなので仕方がないと思おう
+
+出会うタイミングとは不思議なもので、数年前の自分にはハマらなかったものが今の自分にハマるということはよくあることですね。
+数年後、今はスルーしてしまっている作品やコンテンツの作者に夢中になっているかもしれません。楽しみですね。
