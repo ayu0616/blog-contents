@@ -93,4 +93,13 @@ image: https://src.gigafile.nu/images/og_new_200_60.png
 
 ### フォーマットの変更
 
-「ディスクユーティリティ」アプリより
+「ディスクユーティリティ」アプリにてフォーマットを変更したい外部ストレージを選択してください。
+
+
+```cardlink
+url: https://support.apple.com/ja-jp/guide/disk-utility/dskutl14079/22.6/mac/15.0
+title: "Macのディスクユーティリティでストレージデバイスを消去して再フォーマットする"
+description: "Macのディスクユーティリティで、Macで使用するストレージデバイスを消去して再フォーマットします。"
+host: support.apple.com
+```
+
