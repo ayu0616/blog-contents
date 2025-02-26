@@ -62,6 +62,7 @@ Appleのフォーラムを読んだところ、ストレージのフォーマッ
 url: https://discussions.apple.com/thread/255213596?sortBy=rank
 title: "Photos library on external drive cant imp… - Apple Community"
 host: discussions.apple.com
+favicon: https://discussions.apple.com/favicon.ico
 ```
 
 もう一度申し上げますが、私がストレージのフォーマットを変更したい理由は**写真ライブラリ**であり、通常のファイルを保存する目的であればおそらく必要ない作業となります。
@@ -84,7 +85,7 @@ url: https://gigafile.nu/
 title: "GigaFile（ギガファイル）便"
 description: "無料大容量 ファイル転送サービス GigaFile（ギガファイル）便！「３日～１００日」選べる７種類のファイルの保持期限に加え、１ファイル300Gまでアップロード、共有可能！もちろん容量無制限でアンチウイルス装備。会員登録も不要です。"
 host: gigafile.nu
-favicon: favicon.ico
+favicon: https://gigafile.nu/favicon.ico
 image: https://src.gigafile.nu/images/og_new_200_60.png
 ```
 
@@ -101,5 +102,6 @@ url: https://support.apple.com/ja-jp/guide/disk-utility/dskutl14079/22.6/mac/15.
 title: "Macのディスクユーティリティでストレージデバイスを消去して再フォーマットする"
 description: "Macのディスクユーティリティで、Macで使用するストレージデバイスを消去して再フォーマットします。"
 host: support.apple.com
+favicon: https://support.apple.com/favicon.ico
 ```
 
