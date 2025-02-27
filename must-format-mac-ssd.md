@@ -1,9 +1,10 @@
 ---
-published: false
-publishedAt: 
-tags: 
+published: true
+publishedAt: 2025-02-27
+tags:
+  - 備忘録
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-02-27 00:05:14+09:00
+modified: 2025-02-27 09:03:30+09:00
 ---
 
 # Macで外部ストレージを導入する際は最初にフォーマットしよう
@@ -61,6 +62,7 @@ Appleのフォーラムを読んだところ、ストレージのフォーマッ
 ```cardlink
 url: https://discussions.apple.com/thread/255213596?sortBy=rank
 title: "Photos library on external drive cant imp… - Apple Community"
+description: ""
 host: discussions.apple.com
 favicon: https://discussions.apple.com/favicon.ico
 ```
@@ -100,14 +102,17 @@ image: https://src.gigafile.nu/images/og_new_200_60.png
 ### フォーマットの変更
 
 以下のステップを踏むことで外部ストレージのフォーマットを変更することができます。
+**ストレージ内のデータが完全に削除されるため、実行前にデータが正しくバックアップされているか確認してください。**
 
+```callout
+----
+icon: 💡
+title: フォーマット変更の手順
+----
 1. 「ディスクユーティリティ」アプリにてフォーマットを変更したい外部ストレージを選択
 2. 上バーのメニューから「消去」を選択
 3. 開いたメニューで「APFS」フォーマットを選択して、「消去」をクリック
-
-
-
-
+```
 
 ↓詳細な方法はApple公式ページを参照してください。
 
@@ -119,3 +124,6 @@ host: support.apple.com
 favicon: https://support.apple.com/favicon.ico
 ```
 
+ディスクユーティリティで「APFS」と表示されていれば成功です。
+
+![[Screenshot 2025-02-27 at 8.58.27-1.webp]]
