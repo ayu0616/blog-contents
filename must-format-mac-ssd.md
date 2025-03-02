@@ -4,7 +4,7 @@ publishedAt: 2025-02-27
 tags:
   - 備忘録
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-02-27 09:03:30+09:00
+modified: 2025-02-27 18:14:19+09:00
 ---
 
 # Macで外部ストレージを導入する際は最初にフォーマットしよう
@@ -126,4 +126,4 @@ favicon: https://support.apple.com/favicon.ico
 
 ディスクユーティリティで「APFS」と表示されていれば成功です。
 
-![[Screenshot 2025-02-27 at 8.58.27-1.webp]]
+![](ghreahgerheshhr.webp)
