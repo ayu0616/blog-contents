@@ -51,6 +51,64 @@
         "slug": "alt-tab_little-arc",
         "thumbnail": null
     },
+    "expo2025": {
+        "published": true,
+        "publishedAt": "2025-05-03",
+        "tags": [
+            "\u65c5\u884c"
+        ],
+        "created": "2024-06-26T17:15:54+09:00",
+        "modified": "2025-05-04T09:00:53+09:00",
+        "title": "\u5927\u962a\u4e07\u535a2025\u306b\u884c\u3063\u3066\u307f\u305f\u611f\u60f3\u3068\u53cd\u7701\u70b9",
+        "headings": [
+            {
+                "level": 2,
+                "title": "\u6982\u8981"
+            },
+            {
+                "level": 2,
+                "title": "\u5168\u4f53\u7684\u306a\u611f\u60f3\u3068\u53cd\u7701"
+            },
+            {
+                "level": 3,
+                "title": "\u3068\u306b\u304b\u304f\u5927\u898f\u6a21\u3060\u3063\u305f"
+            },
+            {
+                "level": 3,
+                "title": "\u30d1\u30d3\u30ea\u30aa\u30f3\u306b\u306f\u5c55\u793a\u3060\u3051\u3058\u3083\u306a\u304f\u3066\u3001\u30ab\u30d5\u30a7\u3084\u30ec\u30b9\u30c8\u30e9\u30f3\u3001\u58f2\u5e97\u3082\u3042\u308b"
+            },
+            {
+                "level": 3,
+                "title": "\u6d77\u5916\u306e\u30d1\u30d3\u30ea\u30aa\u30f3\u306f\u305f\u3044\u3066\u3044\u4e26\u3079\u3070\u5165\u308c\u308b"
+            },
+            {
+                "level": 3,
+                "title": "\u30e1\u30b8\u30e3\u30fc\u306a\u56fd\u4ee5\u5916\u306a\u3089\u884c\u5217\u304c\u3067\u304d\u3066\u3044\u3066\u3082\u5272\u3068\u3059\u3050\u306b\u306f\u5165\u308c\u308b"
+            },
+            {
+                "level": 3,
+                "title": "\u7269\u4fa1\u306f\u9ad8\u3081"
+            },
+            {
+                "level": 3,
+                "title": "\u4e26\u3076\u306a\u3089\u30aa\u30fc\u30d7\u30f3\u76f4\u5f8c\u304c\u3044\u3044"
+            },
+            {
+                "level": 3,
+                "title": "\u4f1a\u5834\u306f\u3081\u3063\u3061\u3083\u5e83\u3044\u306e\u3067\u3068\u3093\u3067\u3082\u306a\u304f\u6b69\u304f"
+            },
+            {
+                "level": 3,
+                "title": "\u30c6\u30fc\u30de\u3092\u6c7a\u3081\u3066\u3044\u308d\u3093\u306a\u56fd\u3092\u6bd4\u8f03\u3059\u308b\u3068\u697d\u3057\u3044\u304b\u3082"
+            },
+            {
+                "level": 2,
+                "title": "\u64ae\u3063\u305f\u5199\u771f\u306e\u7d39\u4ecb"
+            }
+        ],
+        "slug": "expo2025",
+        "thumbnail": "IMG_5879-1.webp"
+    },
     "monty_hall": {
         "published": true,
         "publishedAt": "2024-06-27",
@@ -521,6 +579,19 @@
         ],
         "slug": "yaeyama-day3",
         "thumbnail": "IMG_6744.webp"
+    },
+    "ogasawara-no-susume": {
+        "published": false,
+        "publishedAt": null,
+        "tags": [
+            "\u65c5\u884c"
+        ],
+        "created": "2024-06-26T17:15:54+09:00",
+        "modified": "2025-05-03T15:23:11+09:00",
+        "title": "\u5927\u5b66\u751f\u306f\u5c0f\u7b20\u539f\u306b\u884c\u3051",
+        "headings": [],
+        "slug": "ogasawara-no-susume",
+        "thumbnail": null
     },
     "yaeyama-day2": {
         "published": true,
@@ -1283,7 +1354,7 @@
             "\u65c5\u884c"
         ],
         "created": "2024-06-26T17:15:54+09:00",
-        "modified": "2025-03-02T10:38:47+09:00",
+        "modified": "2025-03-02T20:24:25+09:00",
         "title": "\u5ca1\u672c\u306b\u6885\u306e\u82b1\u3092\u898b\u306b\u884c\u3063\u305f",
         "headings": [
             {
