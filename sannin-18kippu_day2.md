@@ -5,12 +5,12 @@ tags:
   - 無青春22男がゆく青春18きっぷ山陰旅
   - 旅行
 created: 2024-06-26 17:15:54+09:00
-modified: 2026-05-14 22:30:17+09:00
+modified: 2026-05-14 22:34:02+09:00
 ---
 
 # 無青春22男がゆく青春18きっぷ山陰旅・2日目
 
-[1日目はこちら](/blogsannin-18kippu_day1)
+[1日目はこちら](/blog/sannin-18kippu_day1)
 
 ```table-of-contents
 minLevel: 2
@@ -211,4 +211,4 @@ minLevel: 2
 
 その後、米子に無事到着。明日は早起きしないといけないのでさっさと寝ましたとさ。
 
-[次回はこちら](/blogsannin-18kippu_day3)
+[次回はこちら](/blog/sannin-18kippu_day3)
