@@ -10,7 +10,7 @@ modified: 2026-05-14 22:29:53+09:00
 
 # 無青春22男がゆく青春18きっぷ山陰旅・3日目
 
-[2日目はこちら](../sannin-18kippu_day2)
+[2日目はこちら](/blogsannin-18kippu_day2)
 
 ```table-of-contents
 minLevel: 2

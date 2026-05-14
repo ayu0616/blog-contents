@@ -23,14 +23,14 @@ minLevel: 2
 
 リンクをクリックすると各日の詳細を記録した旅行記に遷移します。
 
-- [1日目](../sannin-18kippu_day1)
+- [1日目](/blogsannin-18kippu_day1)
     - 津山
     - 智頭
-- [2日目](../sannin-18kippu_day2)
+- [2日目](/blogsannin-18kippu_day2)
     - 倉吉
     - 松江
     - 出雲
-- [3日目](../sannin-18kippu_day3)
+- [3日目](/blogsannin-18kippu_day3)
     - 鳥取
     - 餘部
     - 浜坂
