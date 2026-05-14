@@ -3,7 +3,7 @@ published: false
 publishedAt: 
 tags: 
 created: 2024-06-26 17:15:54+09:00
-modified: 2025-05-11 23:25:13+09:00
+modified: 2026-05-14 21:26:07+09:00
 ---
 
 # 47都道府県を訪問した人間が紹介するおすすめ観光スポット
@@ -65,7 +65,6 @@ minLevel: 2
 ![妻籠宿](travel-recommendations-1746974241249.webp)
 
 妻籠宿は長野県にある旧中山道の宿場町です。
-
 
 ## 東海
 
