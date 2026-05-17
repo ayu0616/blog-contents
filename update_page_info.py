@@ -13,6 +13,7 @@ from util.validate import validate_callout
 
 IGNORE_SLUGS = {
     "template",
+    "AGENTS",
     # "test",
 }
 
