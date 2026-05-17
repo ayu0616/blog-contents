@@ -2,6 +2,8 @@
 published: true
 publishedAt: 2026-05-17
 tags:
+  - 写真
+  - 出社するたびに渾身の一枚を撮る
 created: 2026-05-17 17:38:39+09:00
 modified: 2026-05-17 18:15:16+09:00
 ---
