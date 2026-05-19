@@ -1,3 +1,11 @@
+---
+published: false
+publishedAt: 
+tags: 
+created: 2026-05-17 18:22:13+09:00
+modified: 2026-05-19 23:16:36+09:00
+---
+
 # AGENTS.md
 
 ## 1. エージェントの役割 (Role)
