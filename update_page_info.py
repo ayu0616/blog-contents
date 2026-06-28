@@ -24,8 +24,7 @@ def is_target(slug: str) -> bool:
     return True
 
 
-def validate(slug: str) -> None:
-    filepath = f"{slug}.md"
+def validate(filepath: str) -> None:
     with open(filepath, "r") as f:
         lines = f.read().splitlines()
     res = validate_callout(lines)
@@ -42,8 +41,8 @@ def json_serial(obj: object) -> str:
     raise TypeError("Type %s not serializable" % type(obj))
 
 
-def get_json(slug: str) -> dict[str, object]:
-    with open(f"{slug}.md", "r") as f:
+def get_json(filepath: str, slug: str) -> dict[str, object]:
+    with open(filepath, "r") as f:
         lines = f.read().splitlines()
     yaml_flag = False
     yaml_lines = []
@@ -92,11 +91,26 @@ def main() -> None:
 
     page_info = {}
 
+    # 1. ブログ記事 (ルート直下の *.md)
     for md_path in glob.glob("*.md"):
         slug = os.path.splitext(md_path)[0]
-        validate(slug)
-        dic = get_json(slug)
+        if not is_target(slug):
+            continue
+        validate(md_path)
+        dic = get_json(md_path, slug)
+        dic["type"] = "blog"
         page_info[slug] = dic
+
+    # 2. 趣味ページ (hobby/*/info.md)
+    for info_path in glob.glob("hobby/*/info.md"):
+        parts = info_path.split(os.sep)
+        if len(parts) >= 3:
+            slug = parts[1]
+            validate(info_path)
+            dic = get_json(info_path, slug)
+            dic["type"] = "hobby"
+            page_info[slug] = dic
+
     json.dump(page_info, open("page-info.json", "w"), default=json_serial, indent=4)
 
 

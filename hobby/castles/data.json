@@ -1,0 +1,17 @@
+{
+	"castles": [
+		{
+			"name": "姫路城",
+			"lat": 34.8394,
+			"lng": 134.6939,
+			"visited": true,
+			"visitedAt": "2025-04-10"
+		},
+		{
+			"name": "松本城",
+			"lat": 36.2388,
+			"lng": 137.9689,
+			"visited": false
+		}
+	]
+}
